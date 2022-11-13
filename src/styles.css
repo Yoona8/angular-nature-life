@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  --color-main-900: #575B5F;
+  --color-mono-000: #000000;
+  --color-mono-900: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.35;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
